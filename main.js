@@ -53,11 +53,11 @@ if (!opts['test']) setInterval(async () => {
 if (opts['server']) require('./server')(global.conn, PORT)
 
 conn.version = [3, 3234, 9]
-conn.browserDescription = [" Nandhutty V3 ", "safari", "3.0.0"];
+conn.browserDescription = [" RAYEN V3 ", "safari", "3.0.0"];
 conn.connectOptions.maxQueryResponseTime = 60_000
 if (opts['test']) {
   conn.user = {
-    jid: '2219191@s.whatsapp.net',
+    jid: '21695485145@s.whatsapp.net',
     name: 'test',
     phone: {}
   }
